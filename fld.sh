@@ -12,9 +12,9 @@
 #	item == e-2	=> third from last field
 #	else		=> print item
 #
-# @(#) $Revision$
-# @(#) $Id$
-# @(#) $Source$
+# @(#) $Revision: 1.1 $
+# @(#) $Id: fld.sh,v 1.1 1999/09/26 22:19:05 chongo Exp chongo $
+# @(#) $Source: /usr/local/src/cmd/fld/RCS/fld.sh,v $
 #
 # Copyright (c) 1989 by Landon Curt Noll.  All Rights Reserved.
 #
@@ -35,6 +35,10 @@
 # USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 # OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 # PERFORMANCE OF THIS SOFTWARE.
+#
+# chongo <was here> /\oo/\
+#
+# Share and enjoy!
 
 # convert args to awk directives
 #
