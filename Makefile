@@ -2,8 +2,8 @@
 #
 # fld - print a field or fields from stdin
 #
-# @(#) $Revision: 1.1 $
-# @(#) $Id: Makefile,v 1.1 1999/09/22 02:46:05 chongo Exp chongo $
+# @(#) $Revision: 1.2 $
+# @(#) $Id: Makefile,v 1.2 1999/09/27 05:36:31 chongo Exp chongo $
 # @(#) $Source: /usr/local/src/cmd/fld/RCS/Makefile,v $
 #
 # Copyright (c) 1989 by Landon Curt Noll.  All Rights Reserved.
@@ -33,7 +33,7 @@
 SHELL=/bin/sh
 BINMODE=0555
 DESTBIN=/usr/local/bin
-INSTALL=bsdinst
+INSTALL= install
 
 all: fld
 
