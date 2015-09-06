@@ -12,8 +12,8 @@
 #	item == e-2	=> third from last field
 #	else		=> print item
 #
-# @(#) $Revision: 1.1 $
-# @(#) $Id: fld.sh,v 1.1 1999/09/26 22:19:05 chongo Exp chongo $
+# @(#) $Revision: 1.2 $
+# @(#) $Id: fld.sh,v 1.2 1999/09/27 05:36:31 chongo Exp $
 # @(#) $Source: /usr/local/src/cmd/fld/RCS/fld.sh,v $
 #
 # Copyright (c) 1989 by Landon Curt Noll.  All Rights Reserved.
@@ -55,8 +55,10 @@ if [ $# -ne 0 ]; then
 	     -e 's/ \([0-9][0-9]*\) / if(\1<=NF)printf \"%s \",$\1; /g' \
 	     -e 's/%s \([^%]*\)$/%s\1/'`
 else
-    col='print $1;'
+    cat
+    exit 0
 fi
 
 # awk to print fields
 awk "/./ {$col; printf "'"\n"'";}"
+exit 0
