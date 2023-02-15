@@ -12,9 +12,9 @@
 #	item == e-2	=> third from last field
 #	else		=> print item
 #
-# @(#) $Revision: 1.2 $
-# @(#) $Id: fld.sh,v 1.2 1999/09/27 05:36:31 chongo Exp $
-# @(#) $Source: /usr/local/src/cmd/fld/RCS/fld.sh,v $
+# @(#) $Revision: 1.3 $
+# @(#) $Id: fld.sh,v 1.3 2015/09/06 02:57:06 root Exp $
+# @(#) $Source: /usr/local/src/bin/fld/RCS/fld.sh,v $
 #
 # Copyright (c) 1989 by Landon Curt Noll.  All Rights Reserved.
 #

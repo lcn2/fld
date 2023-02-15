@@ -2,9 +2,9 @@
 #
 # fld - print a field or fields from stdin
 #
-# @(#) $Revision: 1.2 $
-# @(#) $Id: Makefile,v 1.2 1999/09/27 05:36:31 chongo Exp chongo $
-# @(#) $Source: /usr/local/src/cmd/fld/RCS/Makefile,v $
+# @(#) $Revision: 1.3 $
+# @(#) $Id: Makefile,v 1.3 2000/02/18 14:44:51 chongo Exp $
+# @(#) $Source: /usr/local/src/bin/fld/RCS/Makefile,v $
 #
 # Copyright (c) 1989 by Landon Curt Noll.  All Rights Reserved.
 #
