@@ -18,10 +18,31 @@ sudo make install
 ```
 
 
+# Examples
+
+Print the 1st, 3rd and 5th fields of a file:
+
+```sh
+$ /usr/local/bin/fld 1 3 5 < file
+```
+
+Print the 1st (IP address) and last fields (final host alias) from `/etc/hosts` that are not comments:
+
+```sh
+$ sed -E -e 's/\s*#.*//' /etc/hosts | /usr/local/bin/fld 1 e
+```
+
+Print named services and this ports from `/etc/services`:
+
+```sh
+$ grep -E '^\w' /etc/services | fld 1 2
+```
+
+
 # To use
 
 ```sh
-usage: ./fld [-h] [-v level] [-V] [-N] [field ...]
+/usr/local/bin/fld [-h] [-v level] [-V] [-N] [field ...]
 
     -h          print help message and exit
     -v level    set verbosity level (def level: 0)
@@ -39,27 +60,6 @@ Exit codes:
  >= 10         internal error
 
 fld version: 1.3.1 2025-03-30
-```
-
-
-# Examples
-
-Print the 1st, 3rd and 5th fields of a file:
-
-```sh
-/usr/local/bin/fld 1 3 5 < file
-```
-
-Print the 1st (IP address) and last fields (final host alias) from `/etc/hosts` that are not comments:
-
-```sh
-sed -E -e 's/\s*#.*//' /etc/hosts | /usr/local/bin/fld 1 e
-```
-
-Print named services and this ports from `/etc/services`:
-
-```sh
-grep -E '^\w' /etc/services | fld 1 2
 ```
 
 
